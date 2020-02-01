@@ -1,0 +1,145 @@
+body{margin: 0;padding:0;}
+
+header{width: 1600px; height: 800px; background-image: url("../images/header-background.png"); margin-left: auto; margin-right: auto;}
+
+.header_container{width: 1600px; height: 800px; clip-path: polygon(0 0, 100% 0, 100% 82%, 0% 100%); background-color: #05B4F9; opacity: 0.9;}
+
+nav{width: 1600px; height: 80px; padding-top: 37px; color: #fff; font-size: 17px; font-family: "Roboto", sans-serif;}
+
+.logo_container{width: 200px; height: 50px; float: left; font-size: 24px; font-family: "Roboto", sans-serif; text-align: center; font-weight: bold;margin-left: 120px;}
+
+.menu_container{width: 760px; height: 50px; font-size: 17px; float:right;}
+
+.menu_li{width: 95px; height: 45px; float: left; margin-left: 15px; line-height: 1.8; color: #fff; font-family: "Roboto", sans-serif; font-size: 15px; text-align: center; padding-top:10px; }
+
+.home_contianer{width: 650px; height: 300px; margin-top: 200px; margin-left: auto; margin-right: auto;}
+
+.slogan{width: 650px; height: 50px; font-size: 50px; font-weight: 700px; font-family: sans-serif; color: #fff; text-align: center;letter-spacing: 19px; }
+
+.home_text{width: 580px; height: 50px;text-align: center; margin-top: 40px; color: #fff; font-size: 15px;}
+
+.home_btn_one{width: 170px; height: 48px; margin-left: 120px; margin-top: 40px;  float: left;}
+.home_btn_two{width: 170px; height: 48px; margin-left: 15px; margin-top: 40px;  float: left;}
+
+.btn{width: 170px; height: 48px;}
+.bgsiz_kenar_beyaz{background:none; color: #fff; outline: none; font-size: 18px; border: solid 2px #fff;}
+.bgsiz_kenar_beyaz:hover{background-color:#fff; color: #05B4F9; outline: none; font-size: 18px; border: solid 2px #fff;}
+.kenar_yuvarlatma{border-radius: 30px;}
+
+/********************** Header bitti.. Content Kısmı **************************/
+
+.servisler_hizletler{width: 1600px; margin-top: 100px; height: 1000px; margin-left: auto; margin-right: auto;}
+.content{width: 1600px;}
+
+.baslik_stili{width: 500px; height: 60px; margin-left: auto; margin-right: auto; text-align: center;font-size: 35px; letter-spacing: 2px; font-weight: bold; color: #556a87;}
+.baslik_aciklama_siyah{width: 500px; height: 80px; margin-right: auto; margin-left: auto; text-align: center; color: #556a87; font-size: 15px;}
+
+.hizmet_cart{margin-top: 55px; padding-top: 35px; width: 430px; height: 256px; float: left; text-align: center; border: solid 1px #e7e7e7;margin-left: 50px; -webkit-box-shadow: 0px 0px 6px 0px rgba(231,231,231,1);-moz-box-shadow: 0px 0px 6px 0px rgba(231,231,231,1);box-shadow: 0px 0px 6px 0px rgba(231,231,231,1); border-radius: 6px;}
+.hizmet_cart_image{width: 70px; height: 70px; margin-left: auto; margin-right: auto; background-color: rgb( 235, 248, 255 ); border-radius: 50%;}
+
+.hizmet_cart:hover{margin-top: 55px; padding-top: 35px; width: 430px; height: 256px; float: left; text-align: center; border: solid 1px #e7e7e7;margin-left: 50px; -webkit-box-shadow: 0px 4px 22px 0px rgba(208,208,208,1);-moz-box-shadow: 0px 4px 22px 0px rgba(208,208,208,1);box-shadow: 0px 4px 22px 0px rgba(208,208,208,1); border-radius: 6px;}
+.hizmetler_baslik{width:430px; height: 40px; font-size: 22px; color: #333; font-weight: bold; margin-top: 25px; }
+.hizmetler_aciklama{width: 430px; padding-left: 20px;  padding-right: 20px; height: 80px; text-align: center; color: #666; margin-top: 8px; font-size: 15px;}
+
+/************ Section 2 *************/
+
+.contact_work_container{width: 1600px; height: 430px;color: #333; margin-left: auto; margin-right: auto; margin-top: -60px; background-image: url("../images/handshake-background.png"); clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%); }
+.contact_work_icerik{width: 1600px; padding-top: 200px; height: 430px; color: #333; background-color: rgba(5, 180, 249, 0.9);}
+
+/*********** Section 3 ************/
+
+.about_ajans_container{width: 1600px; height: 795px; padding-top:120px; margin-left: auto; margin-right: auto;}
+.about_ajans_img_text_container{width: 1170px; height: 300px; margin-right: auto; margin-left: auto;}
+.about_ajans_img{width: 556px; height: 370px; background-image: url("../images/about-pic.png"); float: left;}
+.about_ajans_text{width: 500px; height: 370px; float: left; margin-left: 40px;}
+
+/********* Section 4 ***********/
+
+.ozellikler_container{width: 1600px; height: 430px; color: #333; margin-left: auto; margin-right: auto; margin-top: -60px; background-image: url("../images/letsGo-background.png"); clip-path: polygon(0 0, 100% 0, 100% 68%, 0 100%);}
+.contact_work_icerikk{width: 1600px; padding-top: 200px; height: 430px; color: #333; background-color: rgba(5, 180, 249, 0.9);}
+
+
+/******************************/
+
+.ozellikler_container_icerik{width: 1400px; height: 1170px; margin-left: auto; margin-right: auto;}
+
+.projeler_cart{width: 428px; height: 330px; border-radius: 3px; float: left; border: solid 1px #e7e7e7;}
+.projeler_cart_img{width: 428px; height: 250px; background-image: url("../images/featured-project-pic1.png");}
+.projeler_cart_text{width: 428px; height: 70px; padding-top: 15px; padding-left: 15px; box-sizing: border-box;}
+.projeler_cart_baslik{width: 300px; height: 30px; font-size: 17px; font-weight: bold; color: #333;}
+.projeler_cart_text_text{width: 300px; margin-top: -5px; height: 40px; font-size: 15px; color: #666;}
+
+
+/**************************/
+
+.takim_container{width: 1470px; height: 400px; margin-top: 110px; text-align: center;  margin-left: auto; margin-right: auto;}
+.takim_kisi{width: 315px; margin-top: 50px; border-radius: 5px; border: solid 1px #e7e7e7; height: 453px; float: left; margin-left: 50px;}
+.takim_kisi_img{width: 305px; height: 359px; margin-bottom: 22px;}
+
+/****************************/
+
+.fiyatlar_container{width: 1100px; height: 600px; margin-left: auto; margin-right: auto; margin-top: 400px; }
+.fiyatlar_cart{width: 306px; margin-top: 50px; padding-top: 30px; text-align: center; border-radius: 5px; border: solid 1px #e7e7e7; height: 425px; float: left; margin-left: 50px; position: relative;-webkit-box-shadow: 0px 0px 10px 0px rgba(209,209,209,1);-moz-box-shadow: 0px 0px 10px 0px rgba(209,209,209,1);box-shadow: 0px 0px 10px 0px rgba(209,209,209,1);}
+.fiyat_cart_icerik{width:180px; font-size: 16px; margin-top: 30px; color: #666; line-height: 35px; height: 130px; margin-left: auto; margin-right: auto;}
+.fiyatlar_cart_button{width: 180px; height: 47px; margin-top: 25px; background: none; border: solid 2px #666; border-radius: 25px; outline: none; font-size: 18px; color: #666; font-family: sans-serif;}
+
+/***************************/
+
+#takim_kisi1:hover{-webkit-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; -moz-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; box-shadow: 0px 0px 15px 0px rgba(194,194,194,1);}
+#takim_kisi2:hover{-webkit-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; -moz-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; box-shadow: 0px 0px 15px 0px rgba(194,194,194,1);}
+#takim_kisi3:hover{-webkit-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; -moz-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; box-shadow: 0px 0px 15px 0px rgba(194,194,194,1);}
+#takim_kisi4:hover{-webkit-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; -moz-box-shadow: 0px 0px 15px 0px rgba(194,194,194,1); transition: ease 0.3s; box-shadow: 0px 0px 15px 0px rgba(194,194,194,1);}
+
+/************************/
+
+.proje_bilgisi{width: 250px; float: left; color: #fff; height: 60px; text-align: center;font-size: 35px; letter-spacing: 2px; font-weight: bold; margin-left: 50px;}
+.proje_bilgisi_icerik{width: 1600px; padding-top: 100px; padding-left: 210px; height: 430px; color: #333; background-color: rgba(5, 180, 249, 0.9);}
+
+/*************************/
+
+.ara_hatirlatma_container{width: 1600px; height: 300px;color: #333; margin-left: auto; margin-right: auto; margin-top: -60px; clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%); }
+.ara_hatirlatma_ortalama{width: 1600px; padding-top: 130px; height: 300px; color: #333; background-color: rgba(5, 180, 249, 0.9);}
+
+/***********************/
+
+.blog_container{width: 1400px; height: 500px; margin-left: auto; margin-right: auto;}
+.blog_cart{width: 423px; height: 383px; color: #444; float: left; margin-left: 40px; background-color: #fff;}
+.blog_cart_img{width: 423px; height: 260px;}
+
+/***********************/
+
+footer{width: 1600px; height: 720px; margin-top: 150px; color: #333; padding-top: 270px; background-color: #00293E; color: #fff; margin-left: auto; margin-right: auto; margin-top: -60px; clip-path: polygon(0 32%, 100% 10%, 100% 100%, 0% 100%); }
+.footer_ortalama{width: 1400px; margin-left: auto; margin-right: auto; height: 380px;}
+.footer_cart{width: 267px; height: 264px; float: left;}
+.footer_social_container{width: 267px; height: }
+.face{width: 20px; height: 20px; float: left; background-image:url("../images/facebook-icon.png"); margin-top: 10px;}
+.twit{width: 20px; height: 20px; float: left; margin-left: 16px; background-image:url("../images/twitter-icon.png"); margin-top: 10px;}
+.basket{width: 20px; height: 20px; float: left;margin-left: 16px; background-image:url("../images/basket-icon.png"); margin-top: 10px;}
+.link{width: 20px; height: 20px; float: left;margin-left: 16px; background-image:url("../images/linkedin_icon.png"); margin-top: 10px;}
+
+.face:hover{width: 20px; -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 15px 0px rgba(255,255,255,1); height: 20px; float: left; background-image:url("../images/facebook-icon.png"); margin-top: 10px;}
+.twit:hover{width: 20px; -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 15px 0px rgba(255,255,255,1); height: 20px; float: left; margin-left: 16px; background-image:url("../images/twitter-icon.png"); margin-top: 10px;}
+.basket:hover{width: 20px; -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 15px 0px rgba(255,255,255,1); height: 20px; float: left;margin-left: 16px; background-image:url("../images/basket-icon.png"); margin-top: 10px;}
+.link:hover{width: 20px; -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+box-shadow: 0px 0px 15px 0px rgba(255,255,255,1); height: 20px; float: left;margin-left: 16px; background-image:url("../images/linkedin_icon.png"); margin-top: 10px;}
+
+.footer_abone_textbox{width: 264px; height: 44px; color: #333; z-index: 1px; border-radius: 20px; border: solid 1px #777; box-sizing: border-box; outline: none; padding:16px;}
+.footer_abone_textbox:focus{width: 264px; height: 44px;z-index: 1px;-webkit-box-shadow: 0px 0px 15px 0px rgba(0,247,255,1);-moz-box-shadow: 0px 0px 15px 0px rgba(0,247,255,1);box-shadow: 0px 0px 15px 0px rgba(0,247,255,1);color: #333; border-radius: 20px; transition: ease 0.4s; border: solid 1px #777; box-sizing: border-box; outline: none; padding:16px;}
+.footer_instagram_images{width: 102px; height: 80px; float: left;}
+
+/***********************************************/
+
+#blog_cart1:hover > #blog_baslik1{color: #40BCFF;}
+#blog_cart2:hover > #blog_baslik2{color: #40BCFF;}
+#blog_cart3:hover > #blog_baslik3{color: #40BCFF;}
+
+#blog_devam_text{cursor: pointer;}
+#blog_devam_text2{cursor: pointer;}
+#blog_devam_text3{cursor: pointer;}
